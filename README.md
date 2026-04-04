@@ -70,6 +70,64 @@ pip install -r requirements.txt
 ```
 
 ---
+
+# 5️⃣ Dataset Setup
+Download dataset in YOLOv8 format and place inside:
+
+```tree
+data/
+├── train/
+├── valid/
+├── test/
+└── data.yaml
+```
+
+---
+
+## 🧠 Training the Model
+
+```bash
+python src/train.py
+```
+- Trains YOLOv8 model on pothole dataset
+- Saves results in runs/detect/pothole_detector/
+
+---
+
+## 🔍 Running Inference
+
+```bash
+python src/inference.py
+```
+- Runs detection on a sample image
+- Displays output with bounding boxes
+
+---
+
+## 🎯 Running Demo (Gradio UI)
+
+```bash
+python src/demo.py
+```
+- Opens a local web interface
+- Upload image → detect potholes instantly
+
+---
+
+## 📊 Results
+Evaluation Metrics:
+- Precision
+- Recall
+- mAP (mean Average Precision)
+
+Outputs stored in:
+
+```bash
+results/
+```
+
+---
+
 ## 📁 Project Structure
 ```tree
 Pothole-Detector-CV/
