@@ -14,4 +14,4 @@ def run_inference(image_path):
         cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-    run_inference("test.jpg")  # replace with your image
+    run_inference("../data/test/images/sample.jpg")  # replace with your image name
