@@ -6,7 +6,7 @@ def main():
 
     # Train the model
     model.train(
-        data="data/data.yaml",
+        data="../data/data.yaml",
         epochs=50,
         imgsz=640,
         batch=16,
