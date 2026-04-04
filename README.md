@@ -1,4 +1,4 @@
-# 🎨 ColorFlux – DevOps Deployment Demo Project
+# 🛣️ Pothole Detector – Computer Vision Project
 
 [![Python](https://img.shields.io/badge/Python-grey?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-black?style=for-the-badge)](https://github.com/ultralytics/ultralytics)
