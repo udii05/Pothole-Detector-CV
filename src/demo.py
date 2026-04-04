@@ -1,7 +1,7 @@
 import gradio as gr
 from ultralytics import YOLO
 
-model = YOLO("runs/detect/pothole_detector/weights/best.pt")
+model = YOLO("../runs/detect/pothole_detector/weights/best.pt")
 
 def detect(image):
     results = model(image)
