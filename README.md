@@ -37,7 +37,7 @@ Make sure the following are installed:
 
 ---
 
-# 2️⃣ Clone the Repository
+## 2️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/udii05/Pothole-Detector-CV.git
@@ -46,7 +46,7 @@ cd Pothole-Detector-CV
 
 ---
 
-# 3️⃣ Setup Virtual Environment
+## 3️⃣ Setup Virtual Environment
 
 ```bash
 python -m venv venv
@@ -63,7 +63,7 @@ source venv/bin/activate
 ```
 ---
 
-# 4️⃣ Install Dependencies
+## 4️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -71,7 +71,7 @@ pip install -r requirements.txt
 
 ---
 
-# 5️⃣ Dataset Setup
+## 5️⃣ Dataset Setup
 Download dataset in YOLOv8 format and place inside:
 
 ```tree
