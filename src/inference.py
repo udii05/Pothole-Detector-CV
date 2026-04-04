@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 def run_inference(image_path):
-    model = YOLO("runs/detect/pothole_detector/weights/best.pt")
+    model = YOLO("../runs/detect/train3/weights/best.pt")
 
     results = model(image_path)
 
