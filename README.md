@@ -153,10 +153,6 @@ Pothole-Detector-CV/
 ├── README.md
 └── .gitignore
 ```
-
-### **⭐ Support**
-If you liked this project, please star the repo — it really motivates me.
-- and follow for more updates!
 ---
 
 Udita Chakraborty
